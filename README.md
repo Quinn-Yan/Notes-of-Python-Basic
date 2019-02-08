@@ -73,13 +73,61 @@ name.upper()  # return the result
 name.upper  # return the method
 # make sure you did not run the function
 ```
-#### 1.1.4:Numbers and basic calculations
+#### 1.1.4 Numbers and basic calculations
 - three different numeric types
    - integers
    - floating point numbers 
    - complex numbers
+```Python
+123+34
+123*34
+123**34
+123*345
+# unlimitation for integers
+=========================================================
+6/7
+15/7
+15//7  # (floor integers less than the floating answer)
+=========================================================
+15/2.3
+_   #return the latest number
+_**2.3
+10*2
+_+5
+_**2
+```
 
+* factorial operation (n!)
 
+```Python
+import math
+math.factorial
+```
 
+#### 1.1.5 Random Choice
+```
+import random
+random.choice([2,44,55,66])
+#random.choice only requires that the object has several values regardless of mutability
+```
+#### 1.1.6 Expressions and Booleans
+* Expressions——Boolean（True False）
+* or/and/not
+```
+True or false
+```
+* eight different camprison
+```
+[2,3] == [2,3]
+True
+[2,3] is [2,3]
+False
+#same contents but different objects
+
+2==2.0 # Python will take the int 2 into floating number and then the statement becomes 2.0==2.0
+True
+```
+**Attention**: The difference between is and ==
+"==" tests whether objects have the same value, whereas "is" tests whether objects have the same identity.
 
 **Update by Feb.7th, 2019**
